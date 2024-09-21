@@ -1,0 +1,1095 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.smallnav {
+    height: 7vh;
+    width: 100%;
+    background-color: #434242;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+    position: fixed;
+    top: 0;
+}
+
+.smallnav div a {
+    font-size: 1.7rem;
+    text-decoration: none;
+    color: #C1C1C1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.smallnav .applelogo {
+    padding-left: 3rem;
+}
+
+.smallnav .menu {
+    display: flex;
+    gap: 2rem;
+    padding-right: 3rem;
+}
+
+
+.fullnav {
+    height: 7vh;
+    width: 100%;
+    background-color: #434242;
+    display: flex;
+    justify-content: center;
+    gap: 2.6rem;
+    align-items: center;
+    position: fixed;
+    top: 0;
+}
+
+.fullnav div a {
+    font-size: 0.8rem;
+    text-decoration: none;
+    color: #C1C1C1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.fullicons i {
+    font-size: 1.2rem;
+    vertical-align: -0.2rem;
+}
+
+.cashbackheader {
+    
+    height: 7vh;
+    margin-top:2.5rem;
+    width: 100%;
+    background-color: #1D1D1F;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.cashbackheader a {
+    text-decoration: none;
+    color: #096ccf;
+}
+
+.cashbackheader i {
+    font-size: 1.3rem;
+    vertical-align: -0.2rem;
+}
+
+.herosection {
+    height: 77vh;
+    width: 100%;
+    background-image: url(15protitanium.jpeg);
+    background-size: 100% 130%;
+    background-repeat: no-repeat;
+    background-position: end;
+    text-align: center;
+    padding-top: 2.5rem;
+    cursor: pointer;
+}
+
+.buylearnmore {
+    font-size: 1.5rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buylearnmore h1 {
+    padding-bottom: 0.5rem;
+}
+
+.buylearnmore h3 {
+    font-size: 1.5rem;
+}
+
+.buylearnmore .buttons1 {
+    height: 2.8rem;
+    width: 8rem;
+    border-radius: 2rem;
+    background-color: #0071E3;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.buylearnmore .buttons2 {
+    height: 2.8rem;
+    width: 5rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    border: 2px solid #0071E3;
+    background-color: black;
+    color: #0071E3;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.buttons2:hover {
+    background-color: #096ccf;
+    color: white;
+}
+
+.herosection2 {
+    height: 77vh;
+    width: 100%;
+    margin-top: 1rem;
+    box-shadow: 1px 1px 5px grey;
+    background-image: url(iphone-15_specs__z2qrcyx7srmm_og.png);
+    background-size: 100% 160%;
+    background-repeat: no-repeat;
+    background-position: end;
+    text-align: center;
+    padding-top: 2.5rem;
+    cursor: pointer;
+}
+
+.buylearnmore2 {
+    font-size: 1.5rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.buylearnmore2 h1 {
+    padding-bottom: 0.5rem;
+}
+
+.buylearnmore2 h3 {
+    font-size: 1.5rem;
+}
+
+.buylearnmore2 .buttons1 {
+    height: 2.8rem;
+    width: 8rem;
+    border-radius: 2rem;
+    background-color: #0071E3;
+    border: none;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.buylearnmore2 .buttons2 {
+    height: 2.8rem;
+    width: 5rem;
+    border-radius: 2rem;
+    margin-top: 2rem;
+    border: 1px solid #0071E3;
+    background-color: white;
+    color: #0071E3;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.buttons2:hover {
+    background-color: #096ccf;
+    color: white;
+}
+
+.studentoffers {
+    height: 85vh;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.illusimg {
+    height: 80vh;
+    width: 50%;
+    background-color: #F5F5F7;
+    text-align: center;
+}
+
+.studentoffers .buttons2 {
+    height: 2.8rem;
+    width: 5rem;
+    margin-top: 1rem;
+    border-radius: 2rem;
+    border: 1px solid #0071E3;
+    background-color: white;
+    color: #0071E3;
+    font-size: 1.1rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.studentoffers .buttons2:hover {
+    background-color: #0071E3;
+    color: white;
+}
+
+.divmain{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.divmain h3{
+    font-size: 1.3rem;
+    padding-top: 0.5rem;
+}
+.divmain .buttons1{
+    height: 2.3rem;
+    width: 6.1rem;
+    border-radius: 2rem;
+    background-color: #0071E3;
+    border: none;
+    color: white;
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.divmain .buttons2{
+    height: 2.2rem;
+    width: 4rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    border: 2px solid #0071E3;
+    background-color: white;
+    color: #0071E3;
+    font-size: 0.9rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.divmain .imgdiv{
+    height: 68%;
+    width: 100%;
+    padding-top: 0.7rem;
+}
+.divmain div{
+    height: 80vh;
+    width: 48%;
+    /* border: 2px solid black; */
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+.divmain .div1{
+    background-color: black;
+    color: white;
+}
+.div1 .buttons2{
+    background-color: black;
+}
+.divmain .div2{
+    color: black;
+    box-shadow: 1px 1px 5px grey;
+}
+.divmain .div3{
+    background-color: black;
+    color: white;
+}
+.div3 .buttons2{
+    background-color: black;
+}
+.divmain .div4{
+    color: black;
+    box-shadow: 1px 1px 5px grey;
+}
+.div4 .buttons2{
+    width: 7rem;
+}
+.divmain .div5{
+    background-color: black;
+    color: white;
+}
+.div5 .buttons1{
+    margin-top: 1rem;
+}
+.divmain .div6{
+    color: black;
+    box-shadow: 1px 1px 5px grey;
+}
+.div6 .buttons1{
+    width: 9rem;
+    margin-top: 1rem;
+}
+.slider{
+    margin-top: 1rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: -1;
+}
+.innerslider{
+    height:100%;
+    width: 95%;
+    z-index: -1;
+}
+
+
+.information{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F7;
+    box-shadow: 1px 1px 3px grey;
+}
+.informationdata{
+    width: 67%;
+    background-color: #F5F5F7;
+    color: rgb(138, 136, 136);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(147, 146, 146);
+}
+.optionsecsmall{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F7;
+    display: none;
+}
+.optionsecsmallinner{
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.smallsec{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    align-items: center;
+    border-bottom: 1px solid rgb(147, 146, 146);
+}
+.smallsec i{
+    font-size: 2rem;
+}
+
+.optionbig{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F7;
+    
+}
+.optionbiginner{
+    width: 67%;
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(147, 146, 146);
+}
+.optionbiginner ul{
+    list-style-type: none;
+    cursor: pointer;
+    font-size: 0.8rem;
+    color: rgb(122, 119, 119);
+}
+.optionbiginner li{
+    padding-bottom: 0.5rem;
+}
+.optionbiginner .boldd{
+    font-size: 0.9rem;
+    font-weight: 600;
+    padding-top: 1rem;
+    color: rgb(78, 76, 76);
+    
+}
+
+.copyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F7;
+}
+.copyrightinner{
+    width: 67%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    padding: 1rem 0;
+    color: #626161;
+}
+
+
+@media (max-width:425px) {
+.fullnav{
+    display: none;
+
+}
+.smallnav {
+    height: 5vh;
+    display: block;
+    width: 100%;
+    background-color: #434242;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.smallnav div a {
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #C1C1C1;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.smallnav .applelogo {
+    padding-left: 1rem;
+}
+
+.smallnav .menu {
+    display: flex;
+    gap: 1rem;
+    padding-right: 1rem;
+}
+  .cashbackheader{
+    font-size: 0.6rem;
+    margin-top: 1.8rem;
+    padding-top: 1.5rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+    text-align: center;
+  }
+  .herosection {
+    height: 55vh;
+    width: 100%;
+    /* background-color: black; */
+    background-image: url(lastop.png);
+    background-size: 100% 135%;
+    background-repeat: no-repeat;
+    background-position: end;
+    text-align: center;
+    padding-top: 2rem;
+    padding-left: 0.5rem;
+
+}
+
+.buylearnmore {
+    font-size: 1.2rem;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.buylearnmore h3 {
+    padding-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.buylearnmore .buttons1 {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 2rem;
+    background-color: #0071E3;
+    border: none;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.buylearnmore .buttons2 {
+    height: 2rem;
+    width: 3rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    border: 2px solid #0071E3;
+    background-color: black;
+    color: #0071E3;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.herosection2 {
+    height: 60vh;
+    width: 100%;
+    margin-top: 1rem;
+    box-shadow: 1px 1px 5px grey;
+    background-image: url(iphone-15_specs__z2qrcyx7srmm_og.png);
+    background-size: 100% 170%;
+    background-repeat: no-repeat;
+    background-position: end;
+    text-align: center;
+    padding-top: 2.5rem;
+    cursor: pointer;
+    padding-left: 0.5rem;
+}
+
+.buylearnmore2 {
+    font-size: 1rem;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: o.6rem;
+    padding-right: 0.6rem;
+}
+
+.buylearnmore2 h3 {
+    padding-bottom: 0.5rem;
+    font-size: 1.1rem;
+}
+
+.buylearnmore2 .buttons1 {
+    height: 2rem;
+    width: 6rem;
+    border-radius: 2rem;
+    background-color: #0071E3;
+    border: none;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.buylearnmore2 .buttons2 {
+    height: 2rem;
+    width: 3rem;
+    border-radius: 2rem;
+    margin-top: 1rem;
+    border: 2px solid #0071E3;
+    color: #0071E3;
+    font-size: 0.8rem;
+    font-weight: 400;
+}
+
+.studentoffers {
+    height: 55vh;
+    width: 100%;
+    margin-top: 1rem;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    box-shadow: 1px 1px 5px grey;
+    padding-left: 0.5rem;
+}
+
+.illusimg {
+    height: 50vh;
+    width: 100%;
+    background-color: #F5F5F7;
+    text-align: center;
+}
+.divmain{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    padding: 0;
+    margin: 0;
+}
+.divmain .imgdiv{
+    height: 76%;
+    width: 100%;
+    padding-top: 0.7rem;
+}
+.divmain div{
+    height: 80vh;
+    width: 100%;
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+.divmain h3{
+    font-size: 0.9rem;
+    padding-top: 0.5rem;
+}
+.information{
+    width: 100%;
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F7;
+}
+.informationdata{
+    width: 95%;
+    background-color: #F5F5F7;
+    color: rgb(159, 155, 155);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8rem;
+    padding: 1rem;
+    border-bottom: 1px solid rgb(147, 146, 146);
+}
+.optionsecsmall{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F7;
+    display: block;
+    padding-left: 0.5rem;
+}
+.optionsecsmallinner{
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 1rem;
+}
+.smallsec{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    height: 6vh;
+    align-items: center;
+    border-bottom: 1px solid rgb(147, 146, 146);
+    font-size: 0.8rem;
+}
+.smallsec i{
+    font-size: 1.5rem;
+}
+   .optionbig{
+    display: none;
+   } 
+   .copyright{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    background-color: #F5F5F7;
+}
+.copyrightinner{
+    width: 90%;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    font-size: 0.6rem;
+    padding: 1rem 0;
+    color: #626161;
+}
+}
+
+
+@media (min-width:425px) and (max-width:768px) {
+    .fullnav {
+        display: none;
+
+    }
+
+    .smallnav {
+        height: 5vh;
+        display: block;
+        width: 100%;
+        background-color: #434242;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .smallnav div a {
+        font-size: 1.1rem;
+        text-decoration: none;
+        color: #C1C1C1;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    .smallnav .applelogo {
+        padding-left: 1rem;
+    }
+
+    .smallnav .menu {
+        display: flex;
+        gap: 1rem;
+        padding-right: 1rem;
+    }
+
+    .cashbackheader {
+        margin-top: 1rem;
+        padding-top: 1.5rem;
+        height: 7vh;
+        width: 100%;
+        background-color: #1D1D1F;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        font-size: 0.5rem;
+        padding-left: 0.5rem;
+    }
+
+    .herosection {
+        height: 55vh;
+        width: 100%;
+        /* background-color: black; */
+        background-image: url(lastop.png);
+        background-size: 100% 135%;
+        background-repeat: no-repeat;
+        background-position: end;
+        text-align: center;
+        padding-top: 2rem;
+        padding-left: 0.5rem;
+
+    }
+
+    .buylearnmore {
+        font-size: 1.2rem;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .buylearnmore h3 {
+        padding-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    .buylearnmore .buttons1 {
+        height: 2rem;
+        width: 6rem;
+        border-radius: 2rem;
+        background-color: #0071E3;
+        border: none;
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .buylearnmore .buttons2 {
+        height: 2rem;
+        width: 3rem;
+        border-radius: 2rem;
+        margin-top: 1rem;
+        border: 2px solid #0071E3;
+        background-color: black;
+        color: #0071E3;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .herosection2 {
+        height: 60vh;
+        width: 100%;
+        margin-top: 1rem;
+        box-shadow: 1px 1px 5px grey;
+        background-image: url(iphone-15_specs__z2qrcyx7srmm_og.png);
+        background-size: 100% 170%;
+        background-repeat: no-repeat;
+        background-position: end;
+        text-align: center;
+        padding-top: 2.5rem;
+        cursor: pointer;
+        padding-left: 0.5rem;
+    }
+
+    .buylearnmore2 {
+        font-size: 1rem;
+        color: black;
+        font-family: Arial, Helvetica, sans-serif;
+        padding-left: o.6rem;
+        padding-right: 0.6rem;
+    }
+
+    .buylearnmore2 h3 {
+        padding-bottom: 0.5rem;
+        font-size: 1.1rem;
+    }
+
+    .buylearnmore2 .buttons1 {
+        height: 2rem;
+        width: 6rem;
+        border-radius: 2rem;
+        background-color: #0071E3;
+        border: none;
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .buylearnmore2 .buttons2 {
+        height: 2rem;
+        width: 3rem;
+        border-radius: 2rem;
+        margin-top: 1rem;
+        border: 2px solid #0071E3;
+        color: #0071E3;
+        font-size: 0.8rem;
+        font-weight: 400;
+    }
+
+    .studentoffers {
+        height: 55vh;
+        width: 100%;
+        margin-top: 1rem;
+        background-color: #F5F5F7;
+        display: flex;
+        justify-content: center;
+        box-shadow: 1px 1px 5px grey;
+        padding-left: 0.5rem;
+    }
+
+    .illusimg {
+        height: 50vh;
+        width: 100%;
+        background-color: #F5F5F7;
+        text-align: center;
+    }
+    .divmain{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1rem;
+        padding: 0;
+        margin: 0;
+    }
+    .divmain .imgdiv{
+        height: 76%;
+        width: 100%;
+        padding-top: 0.7rem;
+    }
+    .divmain div{
+        height: 80vh;
+        width: 100%;
+        margin-top: 1rem;
+        padding-top: 2rem;
+    }
+    .divmain h3{
+        font-size: 0.9rem;
+        padding-top: 0.5rem;
+    }
+    .information{
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        background-color: #F5F5F7;
+    }
+    .informationdata{
+        width: 90%;
+        background-color: #F5F5F7;
+        color: rgb(159, 155, 155);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8rem;
+        padding: 1rem;
+        border-bottom: 1px solid rgb(147, 146, 146);
+    }
+    .optionsecsmall{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #F5F5F7;
+        display: block;
+        padding-left: 0.5rem;
+    }
+    .optionsecsmallinner{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding-top: 1rem;
+        padding-left: 1.5rem;
+    }
+    .smallsec{
+        width: 95%;
+        display: flex;
+        justify-content: space-between;
+        height: 6vh;
+        align-items: center;
+        border-bottom: 1px solid rgb(147, 146, 146);
+        font-size: 0.9rem;
+    }
+    .smallsec i{
+        font-size: 1.5rem;
+    }
+    .optionbig{
+        display: none;
+    }
+    .copyright{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #F5F5F7;
+    }
+    .copyrightinner{
+        width: 90%;
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+        font-size: 0.7rem;
+        padding: 1rem 0;
+        color: #626161;
+    }
+
+
+}
+
+@media (min-width:769px) and (max-width:1023px) {
+    .fullnav {
+        height: 4vh;
+        width: 100%;
+        background-color: #434242;
+        display: flex;
+        justify-content: center;
+        gap: 1.2rem;
+        align-items: center;
+    }
+
+    .herosection {
+        height: 60vh;
+        width: 100%;
+        background-color: black;
+        background-image: url(lastop.png);
+        backdrop-filter: blur(7px);
+        background-size: 100% 140%;
+        background-repeat: no-repeat;
+        background-position: end;
+        text-align: center;
+        padding-top: 2rem;
+
+    }
+
+    .herosection2 {
+        height: 60vh;
+        width: 100%;
+        margin-top: 1rem;
+        box-shadow: 1px 1px 5px grey;
+        background-image: url(iphone-15_specs__z2qrcyx7srmm_og.png);
+        background-size: 100% 170%;
+        background-repeat: no-repeat;
+        background-position: end;
+        text-align: center;
+        padding-top: 2.5rem;
+        cursor: pointer;
+    }
+
+    .studentoffers {
+        height: 60vh;
+        width: 100%;
+        margin-top: 1rem;
+        background-color: #F5F5F7;
+        display: flex;
+        justify-content: center;
+        box-shadow: 1px 1px 5px grey;
+    }
+
+    .illusimg {
+        height: 55vh;
+        width: 100%;
+        background-color: #F5F5F7;
+        text-align: center;
+    }
+
+    .cashbackheader {
+        margin-top: 1rem;
+        padding-top: 1rem;
+        font-size: 0.7rem;
+        height: 7vh;
+        width: 100%;
+        background-color: #1D1D1F;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .divmain{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+    }
+    .divmain .imgdiv{
+        height: 75%;
+        width: 100%;
+        padding-top: 0.7rem;
+    }
+    .divmain div{
+        height: 60%;
+        width: 100%;
+        margin-top: 1rem;
+        padding-top: 2rem;
+    }
+    .information{
+        width: 100%;
+        margin-top: 1rem;
+        display: flex;
+        justify-content: center;
+        background-color: #F5F5F7;
+    }
+    .informationdata{
+        width: 90%;
+        background-color: #F5F5F7;
+        color: rgb(159, 155, 155);
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 0.8rem;
+        padding: 1rem;
+        border-bottom: 1px solid rgb(147, 146, 146);
+    }
+    .optionbig{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #F5F5F7;
+    }
+    .optionbiginner{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+    }
+    .optionbiginner ul{
+        list-style-type: none;
+        cursor: pointer;
+        font-size: 0.8rem;
+        color: rgb(122, 119, 119);
+    }
+    .optionbiginner li{
+        padding-bottom: 0.3rem;
+    }
+    .optionbiginner .boldd{
+        font-size: 0.9rem;
+        font-weight: 600;
+        padding-top: 0.7rem;
+        color: rgb(78, 76, 76);
+        
+    }
+    .copyright{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        background-color: #F5F5F7;
+    }
+    .copyrightinner{
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        font-size: 0.7rem;
+        padding: 1rem 0;
+        color: #626161;
+    }
+
+}
+
+@media (min-width:1024px){
+    .cashbackheader{
+        display: flex;
+        align-items: center;
+        margin-top: 2.5rem;
+        padding-top: 1rem;
+        font-size: 0.9rem;
+    }
+}
